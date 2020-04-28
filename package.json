@@ -1,0 +1,25 @@
+{
+  "name": "chat-with-websocket-and-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milon2000/chat-with-websocket-and-node.js.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milon2000/chat-with-websocket-and-node.js/issues"
+  },
+  "homepage": "https://github.com/milon2000/chat-with-websocket-and-node.js#readme",
+  "dependencies": {
+    "ws": "^7.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
