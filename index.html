@@ -9,11 +9,26 @@
     </head>
     <body>
         <div class="container">
-            <ul id="chat"></ul>
+            <div class="tabs">
+                    <input type="radio" name="tabs" id="tab1" checked />
+                    <label for="tab1">Tab1</label>
+
+                    <input type="radio" name="tabs" id="tab2" />
+                    <label for="tab2">Tab2</label>
+
+                    <div class="tab content1">
+                        <p>participants</p>
+                    </div>
+                    <div class="tab content2">
+                        <ul id="chat"></ul>
+                        <p>czat</p>
+                    </div>
+            </div>
+            
             <form>
                 <input type="text" id="message">
             </form>
-        </div>
+
         <script src="main.js"></script>
     </body>
 </html>

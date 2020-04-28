@@ -1,0 +1,44 @@
+.container {
+    position: absolute;
+    bottom: 0;
+    max-width: 600px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*---Tabs---*/
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label {
+  display: inline-block;
+}
+
+input[type="radio"] ~ .tab {
+  display: none;
+}
+#tab1:checked ~ .tab.content1,
+#tab2:checked ~ .tab.content2,
+#tab3:checked ~ .tab.content3,
+#tab4:checked ~ .tab.content4,
+#tab5:checked ~ .tab.content5 {
+  display: block;
+}
+
+input[type="radio"] + label {
+  border: 1px solid #999;
+  background: #eee;
+  padding: 4px 12px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  top: 1px;
+}
+input[type="radio"]:checked + label {
+  background: #fff;
+  border-bottom: 1px solid transparent;
+}
+input[type="radio"] ~ .tab {
+  border-top: 1px solid #999;
+  padding: 12px;
+}
